@@ -8,7 +8,8 @@
 3. [Create Source Postgres CDC to Confluent Platform](#step-3)
 4. [Create Sink Oracle (JDBC) Connection to Confluent Platform](#step-4)
 5. [Insert, Update, Delete changes](#step-5)
-6. [Exercise](#step-6)
+6. [Single Message Transform](#step-6)
+7. [Exercise](#step-7)
 
 ***
 
@@ -76,7 +77,7 @@ You could use API to deploy the connector as you see fit and easier to deploy th
 6. Delete, let's delete the data using this query
 7. Check the Oracle DB how the data deleted from your table
 
-## <a name="step-6"></a>Insert, Update, Delete changes
+## <a name="step-6"></a>Single Message Transform
 
 1. Let's try to run one more connect CDC using SMT for masking the field
 2. We could also deploy the connector using API
