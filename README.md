@@ -50,7 +50,7 @@ http://<hostname>:9021
 6. You'll see red or failed the connector, but give a couple seconds and it will be running well
 7. If the Connector is running well you'll get a new topic with the message inside the Cluster
    * Click Topics on the left side
-   * Click the topics name (by using the json that has been provide it will be **CDC.public.test**)
+   * Click the topics name (by using the json that has been provide it will be **CDC.public.customers**)
    * Click **Messages** tab
    * Click the offset bar on the right middle page, type 0 and enter
    * You'll see the message that starting from offset 0 up to now
