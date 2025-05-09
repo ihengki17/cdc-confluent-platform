@@ -13,6 +13,7 @@
     "database.user": "docker",
     "database.password": "docker",
     "database.dbname": "exampledb",
+    "slot.name": "cdc_slot",
     "plugin.name": "pgoutput",
     "table.include.list": "public.test",
     "message.key.columns": "public.test:id",
