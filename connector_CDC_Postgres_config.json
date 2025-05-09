@@ -15,8 +15,8 @@
     "database.dbname": "exampledb",
     "slot.name": "cdc_slot",
     "plugin.name": "pgoutput",
-    "table.include.list": "public.test",
-    "message.key.columns": "public.test:id",
+    "table.include.list": "public.customers",
+    "message.key.columns": "public.customers:id",
     "database.server.name": "postgres",
     "value.converter.schemas.enable": "true",
     "key.converter.schema.registry.url": "http://schema-registry:8081"
