@@ -12,7 +12,7 @@
     "database.port": "5432",
     "database.user": "docker",
     "database.password": "docker",
-    "database.dbname": "exampledb",
+    "database.dbname": "postgres",
     "slot.name": "cdc_slot",
     "plugin.name": "pgoutput",
     "table.include.list": "public.customers",
