@@ -76,7 +76,18 @@ You could use API to deploy the connector as you see fit and easier to deploy th
 6. Delete, let's delete the data using this query
 7. Check the Oracle DB how the data deleted from your table
 
-## <a name="step-6"></a>Exercise
+## <a name="step-6"></a>Insert, Update, Delete changes
+
+1. Let's try to run one more connect CDC using SMT for masking the field
+2. We could also deploy the connector using API
+```bash
+curl -i -X PUT -H  "Content-Type:application/json" http://localhost:8083/connectors/CDC_postgres_masking/config -d @connector_cdc_postgres_masking_config.json
+```
+
+3. Now check the topic CDC_Masking.public.customers and see inside the message 
+
+
+## <a name="step-7"></a>Exercise
 
 1. Now let's do more through our environment
 2. Let's filter and transform your data using ksqlDB
